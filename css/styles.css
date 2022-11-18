@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Nunito;
+    src: url('../fonts/Nunito-Regular.ttf');
+}
+
+@font-face {
+    font-family: NunitoBold;
+    src: url("../fonts/Nunito-Bold.ttf");
+}
+
+body {
+    font-family: Nunito, sans-serif;
+    background: linear-gradient(to left, #F8F8FA 50%, transparent 50%);
+}
+
+.layout {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo {
+    text-align: center;
+    padding-top: 30px;
+    padding-right: 4px;
+}
+
+h1 {
+    font-style: normal;
+    font-size: 36px;
+    color: #000000;
+    padding-bottom: 20px;
+}
+
+.description {
+    font-size: 22px;
+    color: #636363;
+    padding-bottom: 70px;
+}
+
+.inputs {
+    display: block;
+    border: none;
+    border-bottom: 1px solid #C6C6C4;
+    outline: none;
+    width: 430px;
+    font-size: 20px;
+    line-height: 27px;
+    color: #323232;
+    padding-top: 5px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    color: #C6C6C4;
+}
+
+.agree {
+    font-size: 16px;
+    font-family: NunitoBold,sans-serif;
+    line-height: 27px;
+    color: #636363;
+    padding-left: 10px;
+}
+
+.agree-group {
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.login a {
+    font-size: 16px;
+    line-height: 27px;
+    color: #636363;
+    text-decoration: none;
+}
+
+.registration {
+    display: inline-block;
+    max-width: 440px;
+    padding-top: 112px;
+}
+
+.checkbox {
+    display: inline-block;
+    width: 12px;
+}
+
+.btn {
+    display: block;
+    width: 210px;
+    height: 70px;
+    background: #DD3142;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.right-image {
+    position: absolute;
+    width: 543px;
+    height: 600px;
+    left: 1070px;
+    top: 254px;
+}
+
+.login {
+    padding-top: 44px;
+    text-align: center;
+}
+
+.popup {
+    width: 500px;
+    height: 250px;
+    background-color: #cecece;
+    top: calc(50% - 125px);
+    left: calc(50% - 250px);
+    position: absolute;
+    display: none;
+}
+
+.popup-text {
+    font-size: 19px;
+    line-height: 27px;
+    color: #323232;
+    text-align: center;
+    padding-top: 85px;
+}
+
+.btn-popup {
+    display:block;
+    width: 110px;
+    height: 40px;
+    background: #b0303b;
+    border-radius: 40px;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    margin: 50px auto;
+    cursor: pointer;
+}
